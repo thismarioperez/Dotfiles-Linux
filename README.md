@@ -9,7 +9,7 @@
 4. Run the following command from your terminal:
 
 ```
-cd ~/Repositories && git clone --recursive https://github.com/thismarioperez/Dotfiles-Linux.git Dotfiles && cd Dotfiles && chmod 755 ./install.sh && ./setup.sh
+cd ~/Repositories && git clone --recurse-submodules git@github.com:thismarioperez/Dotfiles-Linux.git Dotfiles && cd Dotfiles && chmod 755 ./install.sh && ./install.sh
 ```
 
 ## Misc
