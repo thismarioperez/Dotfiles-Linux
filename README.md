@@ -3,23 +3,13 @@
 ![Preview](preview.gif)
 
 ## Installation
-1. Install [Homebrew](https://https://brew.sh/).
-2. Make a `~/Repositories` directory within your filesystem.
-3. Depending on what environment you'll be on (work or personal), run one of the following commands from your terminal:
+1. Install [fzf](https://github.com/junegunn/fzf).
+2. Install [nvm](https://github.com/nvm-sh/nvm).
+3. Make a `~/Repositories` directory within your filesystem.
+4. Run the following command from your terminal:
 
-For Personal MacOs Use:
 ```
-cd ~/Repositories && git clone --recursive https://github.com/thismarioperez/Dotfiles.git && cd Dotfiles && chmod 755 ./install.sh && ./install.sh
-```
-
-For Personal Linux Use:
-```
-cd ~/Repositories && git clone --recursive -b linux https://github.com/thismarioperez/Dotfiles.git && cd Dotfiles && chmod 755 ./install.sh && ./install.sh
-```
-
-For Work MacOs Use:
-```
-cd ~/Repositories && git clone --recursive -b work https://github.com/thismarioperez/Dotfiles.git && cd Dotfiles && chmod 755 ./install.sh && ./install.sh
+cd ~/Repositories && git clone --recursive https://github.com/thismarioperez/Dotfiles-Linux.git Dotfiles && cd Dotfiles && chmod 755 ./install.sh && ./setup.sh
 ```
 
 ## Misc
